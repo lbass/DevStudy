@@ -2,6 +2,7 @@ package com.lbass.study.pattern.command;
 
 import com.lbass.study.pattern.command.commands.impl.LightOffCommand;
 import com.lbass.study.pattern.command.commands.impl.LightOnCommand;
+import com.lbass.study.pattern.command.receivers.Light;
 
 public class TreadSafeTest {
 

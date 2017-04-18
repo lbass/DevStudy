@@ -1,4 +1,4 @@
-package com.lbass.study.pattern.command;
+package com.lbass.study.pattern.command.receivers;
 
 public class Light {
 

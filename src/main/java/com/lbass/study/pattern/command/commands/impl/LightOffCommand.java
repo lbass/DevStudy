@@ -1,7 +1,7 @@
 package com.lbass.study.pattern.command.commands.impl;
 
-import com.lbass.study.pattern.command.Light;
 import com.lbass.study.pattern.command.commands.Command;
+import com.lbass.study.pattern.command.receivers.Light;
 
 public class LightOffCommand implements Command {
 
