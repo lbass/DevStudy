@@ -7,20 +7,22 @@
 
 #### - Invoker
 ##### &nbsp;&nbsp; Command를 실행하는 Invoker 입니다. 리모컨 자체가 됩니다.
-###### &nbsp;&nbsp; RemoteController
+###### &nbsp;&nbsp; RemoteController 
 
 <br>
 
 #### - Command
-##### 실행(execute)과 취소(undo)가 가능하며 Receiver를 컨트롤하여 원하는 동작을 수행합니다.
-###### LightOnCommand
-###### LightOffCommand
+##### &nbsp;&nbsp; 실행(execute)과 취소(undo)가 가능하며 Receiver를 컨트롤하여 원하는 동작을 수행합니다.
+###### &nbsp;&nbsp; Command interface의 모든 구현체 (commands 패키지에 위치합니다)
+###### &nbsp;&nbsp; 
 
 <br>
 
 #### - Receiver
-##### 명령에 맞는 실제 동작을 합니다.
-###### Light
+##### &nbsp;&nbsp; 명령에 맞는 실제 동작을 합니다.
+###### &nbsp;&nbsp; Light (전등 객체)
+###### &nbsp;&nbsp; Stereo (스테레오 오디어 객체)
+###### &nbsp;&nbsp; Television (TV 객체)
 
 <br>
 
