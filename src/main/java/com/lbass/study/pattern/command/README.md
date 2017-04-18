@@ -13,13 +13,12 @@
 
 #### - Command
 ##### &nbsp;&nbsp; 실행(execute)과 취소(undo)가 가능하며 Receiver를 컨트롤하여 원하는 동작을 수행합니다.
-###### &nbsp;&nbsp; Command interface의 모든 구현체 (commands 패키지에 위치합니다)
-###### &nbsp;&nbsp; 
+###### &nbsp;&nbsp; Command interface의 모든 구현체 (commands package)
 
 <br>
 
 #### - Receiver
-##### &nbsp;&nbsp; 명령에 맞는 실제 동작을 합니다.
+##### &nbsp;&nbsp; 명령에 맞는 실제 동작을 합니다. (receivers package)
 ###### &nbsp;&nbsp; Light (전등 객체)
 ###### &nbsp;&nbsp; Stereo (스테레오 오디어 객체)
 ###### &nbsp;&nbsp; Television (TV 객체)
