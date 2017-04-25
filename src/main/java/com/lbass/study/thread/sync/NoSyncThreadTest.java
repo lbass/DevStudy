@@ -5,13 +5,10 @@ import java.util.HashMap;
 class User {
 	private int userNo = 0;
 	private HashMap<Integer, String> userInfo = new HashMap<Integer, String>();
-
-	// 임계 영역을 지정하는 synchronized메소드
 	public void add(String name) {
 		userNo = userNo + 1;
 		userInfo.put(userNo, name);
 	}
-	
 	public void printData() {
 		userInfo.forEach((k, v) -> System.out.println(k + ": " + v));
 	}
