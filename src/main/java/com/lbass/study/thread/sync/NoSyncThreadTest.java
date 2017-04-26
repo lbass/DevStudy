@@ -5,6 +5,7 @@ import java.util.HashMap;
 class User {
 	private int userNo = 0;
 	private HashMap<Integer, String> userInfo = new HashMap<Integer, String>();
+	
 	public void add(String name) {
 		userNo = userNo + 1;
 		userInfo.put(userNo, name);

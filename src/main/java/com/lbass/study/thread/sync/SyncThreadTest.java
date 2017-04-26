@@ -1,19 +1,14 @@
 package com.lbass.study.thread.sync;
 
 import java.util.HashMap;
-import java.util.concurrent.ConcurrentHashMap;
 
 class SyncUser {
 	private int userNo = 0;
 	private HashMap<Integer, String> userInfo = new HashMap<Integer, String>();
-	//private ConcurrentHashMap<Integer, String> userInfo = new ConcurrentHashMap<Integer, String>();
-
-	// 임계 영역을 지정하는 synchronized메소드
+	
 	public synchronized void add(String name) {
 		userNo = userNo + 1;
-		userInfo.put(userNo, name);
-		//userInfo.add(System.nanoTime() + " : " + name + " : " + userNo++ + " \n");
-		//System.out.println(name + " : " + userNo++ + "번째 사용");			
+		userInfo.put(userNo, name);		
 	}
 	
 	public void printData() {
